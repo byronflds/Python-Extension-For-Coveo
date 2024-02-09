@@ -1,7 +1,7 @@
 #dictionary with correct product names as key and metadata value as val.
 
 products = { 
-  "PSA (Manage)" : "Manage", "CPQ (Sell)" : "Sell", "BCDR (Recover)" : "Recover", "Help Desk (Assist)" : "Assist", "MDR (Fortify)" : "Fortify", "SIEM (Perch)" : "Perch"}
+  "PSA (Manage)" : "Manage", "CPQ (Sell)" : "Sell", "BCDR (Recover)" : "Recover", "Help Desk (Assist)" : "Assist", "MDR (Fortify)" : "Fortify", "SIEM (Perch)" : "Perch", "RMM" : "ConnectWise RMM"}
 
 #function to get metadata by name
 def getsafeMetadata(metadataname):
