@@ -30,7 +30,7 @@ def getProduct(val):
 def addMultiProduct(list):
   newString = ''
   for product in list:
-    product = 'ConnectWise ' + getProduct(product);
+    product = getProduct(product)
     newString += product + ';'
   return newString
 
